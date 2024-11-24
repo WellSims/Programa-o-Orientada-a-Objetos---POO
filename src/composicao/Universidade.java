@@ -3,7 +3,9 @@ package composicao;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Universidade {
+import utils.ModelBase;
+
+public class Universidade extends ModelBase {
     private String nome;
     private List<Curso> cursos;
 

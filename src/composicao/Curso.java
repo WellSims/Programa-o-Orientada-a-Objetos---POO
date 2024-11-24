@@ -1,6 +1,8 @@
 package composicao;
 
-public class Curso {
+import utils.ModelBase;
+
+public class Curso extends ModelBase {
 
     private String nome;
 

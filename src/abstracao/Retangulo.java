@@ -14,7 +14,23 @@ public class Retangulo extends FormaGeometrica {
     @Override
     public void calcularPerimetro() {
         double lPerimetro = base + base + altura + altura;
-        throw new UnsupportedOperationException("O perímetro do retangulo é " + lPerimetro);
+        System.out.println("O perímetro do retangulo é " + lPerimetro);
     }
-    
+
+    public double getBase() {
+        return this.base;
+    }
+
+    public void setBase(double base) {
+        this.base = base;
+    }
+
+    public double getAltura() {
+        return this.altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }    
+
 }

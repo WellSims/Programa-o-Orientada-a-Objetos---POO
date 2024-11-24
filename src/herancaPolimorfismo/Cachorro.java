@@ -1,4 +1,4 @@
-package herança_polimorfismo;
+package herancaPolimorfismo;
 
 public class Cachorro extends Animal {
 
