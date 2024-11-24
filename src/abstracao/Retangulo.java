@@ -2,16 +2,19 @@ package abstracao;
 
 public class Retangulo extends FormaGeometrica {
 
+    private double base;
+    private double altura;
+
     @Override
     public void calcularArea() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'calcularArea'");
+        double lArea = base * altura;
+        System.out.println("A área do retangulo é " + lArea);
     }
 
     @Override
     public void calcularPerimetro() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'calcularPerimetro'");
+        double lPerimetro = base + base + altura + altura;
+        throw new UnsupportedOperationException("O perímetro do retangulo é " + lPerimetro);
     }
     
 }

@@ -1,17 +1,18 @@
 package abstracao;
 
 public class Circulo extends FormaGeometrica {
-
+    private double raio;
+    
     @Override
     public void calcularArea() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'calcularArea'");
+       double lArea = Math.PI * raio * raio;
+       System.out.println("O valor da área é " + lArea);
     }
 
     @Override
     public void calcularPerimetro() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'calcularPerimetro'");
+        double lPerimetro = 2 * Math.PI * raio;
+        System.out.println("O valor do perímetro é " + lPerimetro);
     }
     
 }
